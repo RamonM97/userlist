@@ -1,0 +1,11 @@
+ajax-pagination:
+ version: 1.x
+ js:
+   js/ajax-pagination.js: {} #Archivo JS para la paginacion AJAX
+ css:
+   theme:
+     css/custom.css: {} #Archivo CSS para estilos
+ dependencies:
+   - core/jquery
+   - core/drupal
+   - core/drupalSettings

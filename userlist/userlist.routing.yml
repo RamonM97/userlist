@@ -1,0 +1,14 @@
+userlist.list:
+  path: '/user-list' #Ruta para acceder a la lista de usuarios
+  defaults:
+    _controller: '\Drupal\userlist\Controller\UserListController::showUserList' #Metodo que maneja esta ruta
+    _title: 'User List'
+  requirements:
+    _permission: 'access content'
+
+userlist.ajax:
+  path: '/user-list/ajax'
+  defaults:
+    _controller: '\Drupal\userlist\Controller\UserListController::getUserList' #Metodo que maneja las solicitudes AJAX de esta ruta
+  requirements:
+    _permission: 'access content'

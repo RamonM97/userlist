@@ -1,0 +1,4 @@
+services:
+ userlist.user_data: #Servicio de simula la API que devuelve una lista JSON de usuarios
+  class: Drupal\userlist\UserData
+  arguments: ['@file_system']

@@ -1,0 +1,5 @@
+name: 'Lista de Usuarios AJAX'
+type: module
+description: 'Modulo paginado de Usuarios con AJAX'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
