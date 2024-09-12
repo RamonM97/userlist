@@ -16,7 +16,7 @@
 
 ##TODO
 
--He intentado hacer lo mejor posible esta prueba técnica, intentado demostrar todos mis conocimientos y he conseguido hacer todo, incluido el apartado más complicado "AJAX" correctamente y el formulario, pero al pulsar por segunda vez un enlace de paginación deja de funcionar y hay que volver manualmente a la raíz .../user-list. Por la rapidez pedida de entregar esta prueba cuanto antes, dejo por desgracia ese detalle sin conseguir.
+-He intentado hacer lo mejor posible esta prueba técnica, intentado demostrar todos mis conocimientos y he conseguido hacer todo, incluido el apartado más complicado "AJAX" correctamente y el formulario, pero al pulsar la paginación después de realizar una búsqueda, esta deja de funcionar y hay que volver manualmente a la raíz .../user-list. Por la rapidez pedida de entregar esta prueba cuanto antes, dejo por desgracia ese detalle sin conseguir por falta de tiempo.
 
 -Tienen más demostraciones en mi portfolio personal: www.ramondev.es (Aplicaciones web, móviles y videojuegos)
 
