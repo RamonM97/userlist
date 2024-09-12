@@ -97,7 +97,7 @@ class UserSearchForm extends FormBase {
     $pagination .= '</div>';
 
     //Reemplazamos el contenido del contenedor con los resultados filtrados
-    $response->addCommand(new ReplaceCommand('#user-list-wrapper', $html . $pagination));
+    $response->addCommand(new ReplaceCommand('#user-list-wrapper', '<div id="user-list-wrapper">' . $html . $pagination . '</div>'));
 
     return $response;
   }
