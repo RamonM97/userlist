@@ -76,9 +76,7 @@ class UserListController extends ControllerBase {
       'search_form' => $form, 
       'user_list_wrapper' => [
         '#type' => 'markup',
-        '#markup' => \Drupal::service('renderer')->render($form) . $output . $pagination,
-        '#prefix' => '<div id="user-list-wrapper">',
-        '#suffix' => '</div>',
+        '#markup' => '<div id="user-list-wrapper">' . \Drupal::service('renderer')->render($form) . $output . $pagination . '</div>',
       ],
       '#attached' => [
         'library' => [
@@ -136,6 +134,6 @@ class UserListController extends ControllerBase {
     $pagination .= '</div>';
 
     //Devolvemos la respuesta com JSON con el HTML actualizado con la nueva lista de usuarios
-    return new JsonResponse(['html' => $output . $pagination]);
+    return new JsonResponse(['html' => '<div id="user-list-wrapper">' . $output . $pagination . '</div>']);
   }
 }
